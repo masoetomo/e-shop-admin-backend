@@ -21,4 +21,5 @@ Route::get('halo', function () {
 Auth::routes(['register' => false]);
 
 Route::resource('products', 'ProductController');
+Route::resource('product-galleries', 'ProductGalleryController');
 // Route::get('/home', 'HomeController@index')->name('home');
