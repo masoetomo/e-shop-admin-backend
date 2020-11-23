@@ -30,7 +30,7 @@
                                         </td>
                                         <td>{{ $item->is_default ? 'Ya' : 'Tidak' }}</td>
                                         <td>
-                                            <form action="{{ route('products-galleries.destroy', $item->id) }}" 
+                                            <form action="{{ route('product-galleries.destroy', $item->id) }}" 
                                                 method="post" 
                                                 class="d-inline">
                                                 @csrf
