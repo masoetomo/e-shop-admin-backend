@@ -24,4 +24,5 @@ Route::get('product-galleries/{id}/gallery', 'ProductGalleryController@gallery')
 ->name('products.gallery');
 Route::resource('products', 'ProductController');
 Route::resource('product-galleries', 'ProductGalleryController');
+Route::resource('transactions', 'TransactionController');
 // Route::get('/home', 'HomeController@index')->name('home');
