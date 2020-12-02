@@ -53,7 +53,8 @@
                                                 </a> --}}
                                             @endif
                                             <a href="#mymodal"
-                                                data-remote=" {{ route('transactions.show', $item->id) }}"
+                                                {{-- data-remote=" {{ route('transactions.show', $item->id) }}" --}}
+                                                data-remote="transactions/{{ $item->id }}"
                                                 data-toggle="modal"
                                                 data-target="#mymodal"
                                                 data-title="Detail Transaksi{{ $item->uuid }}"
